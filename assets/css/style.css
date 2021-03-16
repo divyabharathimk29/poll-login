@@ -9,14 +9,18 @@ body {
 	height: 100%;
 	background: #EDF0F5;
 }
-.container{
+.container-fluid{
 	width: 100%;
 	height: 100%;
-	position: relative;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
 .header{
 	position: absolute;
-	right: 50px;
+	right: 70px;
 	top: 40px;
 }
 .box{
@@ -33,8 +37,8 @@ body {
 	margin: auto;
 }
 .square{
-	width: 412px;
-	height: 412px;
+	width: 540px;
+	height: 400px;
 	background: #12346D;
 	border-radius: 8px;
 	position: absolute;
@@ -47,6 +51,7 @@ body {
 	position: absolute;
 	top: 30%;
 	left: 2%;
+	mix-blend-mode: soft-light;
 }
 .square h3{
 	position: absolute;
@@ -58,33 +63,83 @@ body {
 }
 .login{
 	position: absolute;
-	top: 20%;
-	right: 15%;
+	top: 15%;
+	right: 20%;
 	margin: auto;
 }
 .login h3{
 	font-family: Montserrat, sans-serif;
-	font-weight: 700;
+	font-weight: 600;
+}
+.line{
+	width: 80px;
+	height: 4px;
+	background: #12346D;
+	border-radius: 1.43px;
 }
 .login p{
 	font-size: 15px;
 	font-family: Roboto, sans-serif;
+	margin-top: 1.3rem;
+    margin-bottom: 0;
 }
 .btn-login{
 	position: absolute;
 	width: 124px;
+	height: 42px;
 	background: #12346D;
 	color: #ffffff;
 	margin: 15px 0 0 0;
 	font-family: Open Sans, sans-serif;
+	line-height: 0;
+	font-weight: 600;
 }
 .footer{
 	position: absolute;
-	bottom: -25%;
-	right: 26%;
+	bottom: -23%;
+	right: 29%;
 	font-family: Roboto, sans-serif;
 }
 .footer span{
 	font-size: 12px;
+	font-weight: 300;
+}
+.footer{
+	font-weight: 700;
 
+}
+.form-control{
+	width: 355px;
+	height: 49px;
+	background-color: #FCFCFE;
+	border-color: #E5E5E5;
+}
+.alert{
+    position: absolute;
+    right: -10%;
+    padding: 5px 15px 6px 50px;
+    margin: 15px 0 0 0;
+    border-radius: 8px;
+    border-color: #E85656;
+    line-height: 15px;
+}
+.close{
+	position: absolute;
+	left: 0;
+	background-color: #ffffff00;
+    color: #621b1b;
+    border: 2px solid #621b1b;
+    border-radius: 40px;
+    height: 24px;
+    width: 24px;
+    margin: 4px 1px 1px 10px;
+}
+.alert .btn-close{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px;
+    margin-left: 6px;
+    width: 5px;
+    color: #621b1b;
 }
