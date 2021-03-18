@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Main - Screen</title>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS File -->
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Kerala Legislative Assembly Election 2021</h2>
+        <p class="para">AC No:XX, PS No:XXX, Government Higher Secondary School, Kunnakkavu, Kunnakkavu, Kerala 679340</p>
+        <button class="btn btn-lg btn-logout" type="submit">LOG OUT <img src="assets/img/logout.svg"></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="video-url">
+          <img id="video" src="assets/img/black.png">
+        </div>
+      </div>
+    </div>
+    <div class="row options">
+      <div class="col-md-2">
+        <div class="camera text-center">
+          <img id="camera" src="assets/img/camera-off.svg">
+          <p>CAMERA</p>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="mic text-center"> 
+          <img id="mic" src="assets/img/mic-off.svg">
+          <p>MIC</p>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="text-center" id="btn-start"> 
+          <button class="btn btn-lg btn-start" id="startbtn" type="submit">START</button>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="log text-center"> 
+          <img src="assets/img/log.svg">
+          <p>LOG</p>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="setting text-center"> 
+          <img id="setting" src="assets/img/setting.svg">
+          <p>SETTING</p>
+        </div>
+        <div class="dropdown collapse" id="dropdown">
+          <p>Select Camera Input<img id="clickinput" src="assets/img/angle-right.svg"></p>
+          <hr>
+          <p>Select Mic Input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/img/angle-right.svg"></p>
+        </div>
+        <div class="sub-dropdown collapse" id="subdropdown">
+          <div class="title">Select Camera Input<img id="downarrow" src="assets/img/angle-down.svg"></div>
+          <div class="check">
+            <p><img src="assets/img/right.svg">&nbsp;&nbsp;&nbsp;&nbsp;Camera Input 01</p>
+            <p class="input-2">Camera Input 02</p>
+          </div>
+          <hr>
+          <p class="mic-input">Select Mic Input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/img/angle-right.svg"></p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center" id="internet">
+      <div class="internet text-center"> 
+        <p><img src="assets/img/internet.svg"> Internet Available</p>
+      </div>
+    </div>
+  <!-- script -->
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
